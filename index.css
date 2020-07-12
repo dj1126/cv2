@@ -1,0 +1,79 @@
+#ProfilePic {
+    width: 21%;
+    height: auto;
+}
+
+.position {
+    font-family: Serif;
+    color: black;
+}
+
+#mainPic {
+    max-width:16%;
+    height:auto;
+    position: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
+}
+
+body {
+    background-color: #ffffff;
+   
+}
+
+#intro {
+    font-family: 'Karla';font-size: 18px;
+    text-align: center; 
+}
+
+#me {
+    text-align: center; 
+    height: 100px;
+    padding-top:100px;
+    
+}
+
+#toprightcorner {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    padding-top: 50px;
+}
+
+@font-face {
+    font-family: 'gotham';
+    src: url(Gotham-Light.otf);
+    font-style: normal;
+    font-weight:  50;
+}
+
+html, body, #intro {
+    font-family: gotham;
+    font-weight:  50;
+}
+
+a { 
+    text-decoration: none; 
+    color: black;
+    font-size:  13px;
+}
+
+#intro2 {
+    text-align: center; 
+}
+
+#Message {
+    height:200px;
+    font-size:14pt;
+}
+
+#firstname, #lastname {
+    font-size: 10px;
+    color: grey;
+}
+
+#contactpage {
+    text-align: center;
+}
